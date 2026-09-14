@@ -12,7 +12,7 @@
 - [x] DNS routing via **Porkbun**.
 - [x] Google Analytics 4 ready via `@next/third-parties/google`.
 - [x] Multi-harness agent governance (`.agent/`, `AGENTS.md`) with Conventional Commits and Semantic Versioning.
-- [ ] Homepage mascot image (pending selection).
+- [x] Homepage mascot image (`public/mascot-celebrating.webp`, transparent holes).
 
 ---
 
