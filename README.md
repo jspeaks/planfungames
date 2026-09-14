@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Plan Fun Games (`PlanFunGames.com`)
 
-## Getting Started
+> Placeholder site for **PlanFunGames.com**. Mascot art will land on the homepage once a candidate is chosen from `~/dev/plan-fun-games-mascot`.
 
-First, run the development server:
+---
+
+## Current Status: Phase 1 (Foundation)
+
+- [x] Secured domain name (**`PlanFunGames.com`** & **`www.PlanFunGames.com`**).
+- [x] Modern Next.js 16 (App Router) baseline with Tailwind CSS v4 and TypeScript.
+- [x] Continuous deployment pipeline via **GitHub** → **Vercel**.
+- [x] DNS routing via **Porkbun**.
+- [x] Google Analytics 4 ready via `@next/third-parties/google`.
+- [x] Multi-harness agent governance (`.agent/`, `AGENTS.md`) with Conventional Commits and Semantic Versioning.
+- [ ] Homepage mascot image (pending selection).
+
+---
+
+## Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS v4
+- **Analytics**: `@next/third-parties/google` (GA4)
+- **Hosting & CI/CD**: Vercel (GitHub `main`)
+- **DNS & Registrar**: Porkbun
+
+---
+
+## Development
 
 ```bash
+git clone https://github.com/jspeaks/planfungames.git
+cd planfungames
+npm install
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Commit & Versioning Governance
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Conventional Commits**: `feat:`, `fix:`, `style:`, `docs:`, `chore:`, `refactor:`, or `perf:`.
+2. **Semantic Versioning**: bump `version` in `package.json` with every functional change, in the same commit.
+3. **Agent rules**: `.agent/rules/conventions.md` and `AGENTS.md`.

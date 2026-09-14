@@ -7,3 +7,17 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+# Commit & Versioning Conventions
+
+For every iteration, update, or code change on this project:
+
+1. **Conventional Commits**:
+   - Format all commit messages using Conventional Commits (`feat:`, `fix:`, `style:`, `chore:`, `docs:`, `refactor:`, `perf:`).
+
+2. **Semantic Versioning**:
+   - For every functional iteration, bump the version in `package.json` according to SemVer (`0.1.0` -> `0.1.1` for patch fixes/tweaks, `0.2.0` for features).
+   - Include the `package.json` version update within the same commit.
+
+3. **Domain Branding & Capitalization**:
+   - In all readable content, prose, documentation, and UI text, always capitalize the brand as `PlanFunGames.com` (and `www.PlanFunGames.com`).
