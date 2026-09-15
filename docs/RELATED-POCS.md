@@ -1,6 +1,6 @@
 # Related POCs (do not import)
 
-This website introduces Plan Fun Games. Other `~/dev` folders already prototyped pieces of the **product**. They are allowed as inspiration. They are not this site’s information architecture.
+This website introduces PlanFunGames. Other `~/dev` folders already prototyped pieces of the **product**. They are allowed as inspiration. They are not this site’s information architecture.
 
 | Project | What it proved | For this site |
 | --- | --- | --- |

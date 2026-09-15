@@ -19,7 +19,7 @@ For every iteration, update, or code change on this project:
    - For every functional iteration, bump the version in `package.json` according to SemVer (`0.1.0` -> `0.1.1` for patch fixes/tweaks, `0.2.0` for features).
    - Include the `package.json` version update within the same commit.
 
-3. **Domain Branding & Capitalization**:
-   - In all readable content, prose, documentation, and UI text, always capitalize the brand as `PlanFunGames.com` (and `www.PlanFunGames.com`).
-   - Sport spokes: `pickleball.PlanFunGames.com`, `tennis.PlanFunGames.com`.
+3. **Brand name: `PlanFunGames` (camel case, no spaces)**:
+   - Product name in UI, docs, metadata, and prose is **`PlanFunGames`**. Never write `Plan Fun Games`.
+   - Hosts: `PlanFunGames.com`, `www.PlanFunGames.com`, `pickleball.PlanFunGames.com`, `tennis.PlanFunGames.com`.
    - Hub copy must not list sports. Read `docs/` before changing landings.

@@ -14,7 +14,7 @@ The hub talks about **where the group already lives**, not about a sport.
 
 | Feature | Advantage | Benefit |
 | --- | --- | --- |
-| Plan Fun Games attaches to GroupMe (and later other group tools) instead of replacing them. | Nobody has to move the social graph into a new app. | The night still starts in the chat people already open. |
+| PlanFunGames attaches to GroupMe (and later other group tools) instead of replacing them. | Nobody has to move the social graph into a new app. | The night still starts in the chat people already open. |
 
 ### 2. Players do not install anything
 
@@ -74,7 +74,7 @@ Thinner than pickleball. Tennis language: courts, round robins, ladder nights, w
 
 | Feature | Advantage | Benefit |
 | --- | --- | --- |
-| The club or ladder already lives in a group thread. Plan Fun Games attaches there. | No second roster in a tennis-club app nobody opens. | Tonight’s courts get filled from the same chat used to say “I’m in.” |
+| The club or ladder already lives in a group thread. PlanFunGames attaches there. | No second roster in a tennis-club app nobody opens. | Tonight’s courts get filled from the same chat used to say “I’m in.” |
 
 ### 2. Who sits, who plays, which court
 

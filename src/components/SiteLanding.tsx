@@ -27,7 +27,7 @@ export function SiteLanding({ site }: { site: SiteConfig }) {
   return (
     <div className="site" style={{ ["--accent" as string]: site.accent }}>
       <header className="site-top">
-        <span className="site-brand">Plan Fun Games</span>
+        <span className="site-brand">PlanFunGames</span>
         <span className="site-kicker">{site.hero.kicker}</span>
       </header>
 
@@ -87,7 +87,7 @@ export function SiteLanding({ site }: { site: SiteConfig }) {
       <section className="start" id="start">
         <h2>Bring the group you already have.</h2>
         <p>
-          Setup that attaches Plan Fun Games to your GroupMe is next. This
+          Setup that attaches PlanFunGames to your GroupMe is next. This
           page is the front door — not a new social network.
         </p>
         <a className="cta" href="mailto:hello@planfungames.com?subject=Bring%20my%20GroupMe">

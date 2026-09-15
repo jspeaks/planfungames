@@ -9,18 +9,18 @@ export const hub: SiteConfig = {
     "localhost",
     "127.0.0.1",
   ],
-  name: "Plan Fun Games",
+  name: "PlanFunGames",
   accent: "#c2410c",
   seo: {
-    title: "Plan Fun Games — run rec nights from the group chat you already have",
+    title: "PlanFunGames — run rec nights from the group chat you already have",
     description:
-      "Attach Plan Fun Games to GroupMe and other group tools. Organizers get a voice remote. Players do not install an app.",
+      "Attach PlanFunGames to GroupMe and other group tools. Organizers get a voice remote. Players do not install an app.",
   },
   hero: {
     kicker: "PlanFunGames.com",
     headline: "Run the night from the chat your group already uses.",
     subhead:
-      "Plan Fun Games attaches to GroupMe — and other group tools — so organizers can manage games without making every player download a new app. A voice remote stays with the person running the night.",
+      "PlanFunGames attaches to GroupMe — and other group tools — so organizers can manage games without making every player download a new app. A voice remote stays with the person running the night.",
     cta: "Bring your GroupMe",
   },
   howItWorks: [
@@ -41,7 +41,7 @@ export const hub: SiteConfig = {
     {
       title: "Stay in GroupMe",
       feature:
-        "Plan Fun Games attaches to GroupMe (and later other group tools) instead of replacing them.",
+        "PlanFunGames attaches to GroupMe (and later other group tools) instead of replacing them.",
       advantage: "Nobody has to move the social graph into a new app.",
       benefit: "The night still starts in the chat people already open.",
     },

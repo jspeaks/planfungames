@@ -7,7 +7,7 @@ export const tennis: SiteConfig = {
   name: "Tennis",
   accent: "#ca8a04",
   seo: {
-    title: "Plan Fun Games for tennis — round robins from the club chat",
+    title: "PlanFunGames for tennis — round robins from the club chat",
     description:
       "Run club tennis nights and round robins from the group thread you already have. Organizer voice remote. Players just show up.",
   },
@@ -15,7 +15,7 @@ export const tennis: SiteConfig = {
     kicker: "tennis.PlanFunGames.com",
     headline: "Fill the courts from the club chat.",
     subhead:
-      "Ladder nights and round robins already live in a group thread. Plan Fun Games attaches there so the organizer can rotate who plays, who sits, and which court — without a clipboard becoming the bottleneck.",
+      "Ladder nights and round robins already live in a group thread. PlanFunGames attaches there so the organizer can rotate who plays, who sits, and which court — without a clipboard becoming the bottleneck.",
     cta: "Bring your tennis group",
   },
   howItWorks: [
@@ -36,7 +36,7 @@ export const tennis: SiteConfig = {
     {
       title: "Round robin from the chat",
       feature:
-        "The club or ladder already lives in a group thread. Plan Fun Games attaches there.",
+        "The club or ladder already lives in a group thread. PlanFunGames attaches there.",
       advantage: "No second roster in a tennis-club app nobody opens.",
       benefit: "Tonight’s courts get filled from the same chat used to say “I’m in.”",
     },

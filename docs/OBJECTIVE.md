@@ -1,6 +1,6 @@
 # Objective
 
-**One-liner:** Plan Fun Games attaches to the group chat you already use so organizers can run fun games — without making every player install an app.
+**One-liner:** PlanFunGames attaches to the group chat you already use so organizers can run fun games — without making every player install an app.
 
 ## What this project is
 
@@ -22,7 +22,7 @@ The product plugs into **group-centric places people already gather** (GroupMe f
 - Primary spoke: `pickleball.PlanFunGames.com`
 - Secondary spoke (proves two-or-more configs): `tennis.PlanFunGames.com`
 
-The hub must not catalog sports. A spoke must not feel like a generic Plan Fun Games page with the sport name swapped in a heading.
+The hub must not catalog sports. A spoke must not feel like a generic PlanFunGames page with the sport name swapped in a heading.
 
 ## Success for this phase
 

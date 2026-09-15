@@ -34,7 +34,7 @@ export async function generateMetadata(): Promise<Metadata> {
       title: site.seo.title,
       description: site.seo.description,
       url: origin,
-      siteName: "Plan Fun Games",
+      siteName: "PlanFunGames",
       type: "website",
     },
     icons: { icon },

@@ -28,7 +28,7 @@ Local aliases: `pickleball.localhost:3000`, `tennis.localhost:3000` (hub remains
 - Use pickleball-only imagery as the whole identity (the mascot belongs on the pickleball spoke).
 - Rank or compare spokes.
 
-Spokes may say **Plan Fun Games** as the product name. They must not dump the visitor back onto a sports catalog.
+Spokes may say **PlanFunGames** as the product name. They must not dump the visitor back onto a sports catalog.
 
 ## SEO split
 

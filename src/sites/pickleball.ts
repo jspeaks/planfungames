@@ -7,7 +7,7 @@ export const pickleball: SiteConfig = {
   name: "Pickleball",
   accent: "#15803d",
   seo: {
-    title: "Plan Fun Games for pickleball — rec nights without a player app",
+    title: "PlanFunGames for pickleball — rec nights without a player app",
     description:
       "Keep your pickleball GroupMe. Get help with mixing, sit-outs, and the next round. Players do not download anything.",
   },
@@ -15,7 +15,7 @@ export const pickleball: SiteConfig = {
     kicker: "pickleball.PlanFunGames.com",
     headline: "Better rec pickleball. Same GroupMe.",
     subhead:
-      "Neighborhood open play already lives in chat. Plan Fun Games helps the organizer mix games, rotate sit-outs, and call the next round — without turning Tuesday night into a software project.",
+      "Neighborhood open play already lives in chat. PlanFunGames helps the organizer mix games, rotate sit-outs, and call the next round — without turning Tuesday night into a software project.",
     cta: "Bring your pickleball GroupMe",
   },
   howItWorks: [

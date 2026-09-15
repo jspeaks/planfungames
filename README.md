@@ -1,4 +1,4 @@
-# Plan Fun Games (`PlanFunGames.com`)
+# PlanFunGames (`PlanFunGames.com`)
 
 Spoke-and-wheel introduction site: the hub is about GroupMe and organizer tools; sport subdomains speak pickleball and tennis.
 

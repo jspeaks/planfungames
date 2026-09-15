@@ -1,6 +1,6 @@
 ---
 slug: "planfungames.com"
-name: "Plan Fun Games"
+name: "PlanFunGames"
 status: "active"
 type: "product"
 stack: ["nextjs", "typescript", "tailwind", "vercel"]
@@ -10,7 +10,7 @@ git: true
 updated: "2026-09-15"
 ---
 
-# Plan Fun Games
+# PlanFunGames
 
 Introduction website for **PlanFunGames.com**. Attaches to group chat (GroupMe first) plus a voice organizer app so people can plan fun games. Sport spokes use their own hosts and language.
 
