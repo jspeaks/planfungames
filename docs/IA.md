@@ -97,7 +97,7 @@ Promise of the click: organizer-only setup, players keep chatting, try it on the
 | --- | --- | --- |
 | Hub | Abstract mark (chat + voice) | Not Skip. Not a sport object. |
 | Pickleball | **Skip** celebrating (`/mascot-celebrating.webp`) | From `~/dev/plan-fun-games-mascot` (Grok `design/` system). |
-| Tennis | **Rally** — tennis-ball body + racquet | Same studio as Skip. Lives in `~/dev/plan-fun-games-mascot/grok/design-tennis/` (`hero-canonical.jpg`, `celebrating.jpg`). Do not copy onto this site until the landing-copy batch. |
+| Tennis | **Rally** celebrating (`/rally-celebrating.webp`) | Same studio as Skip. Source: `~/dev/plan-fun-games-mascot/grok/design-tennis/`. |
 
 ---
 

@@ -85,12 +85,12 @@ export function SiteLanding({ site }: { site: SiteConfig }) {
       </section>
 
       <section className="start" id="start">
-        <h2>Bring the group you already have.</h2>
-        <p>
-          Setup that attaches PlanFunGames to your GroupMe is next. This
-          page is the front door — not a new social network.
-        </p>
-        <a className="cta" href="mailto:hello@planfungames.com?subject=Bring%20my%20GroupMe">
+        <h2>{site.start.headline}</h2>
+        <p>{site.start.body}</p>
+        <a
+          className="cta"
+          href={`mailto:hello@planfungames.com?subject=${encodeURIComponent(site.hero.cta)}`}
+        >
           {site.hero.cta}
         </a>
       </section>

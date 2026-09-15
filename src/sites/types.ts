@@ -35,5 +35,9 @@ export type SiteConfig = {
   };
   howItWorks: HowStep[];
   fab: FabCard[];
+  start: {
+    headline: string;
+    body: string;
+  };
   visual: SiteVisual;
 };

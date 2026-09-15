@@ -14,7 +14,7 @@ The hub talks about **where the group already lives**, not about a sport.
 
 | Feature | Advantage | Benefit |
 | --- | --- | --- |
-| PlanFunGames attaches to GroupMe (and later other group tools) instead of replacing them. | Nobody has to move the social graph into a new app. | The night still starts in the chat people already open. |
+| PlanFunGames attaches to GroupMe first, instead of replacing the chat your group already opens. | Nobody has to move the social graph into a new app. | The night still starts in the chat people already open. |
 
 ### 2. Players do not install anything
 
@@ -32,13 +32,13 @@ The hub talks about **where the group already lives**, not about a sport.
 
 | Feature | Advantage | Benefit |
 | --- | --- | --- |
-| Chat commands, photos, and voice all write the same night. | The group does not fork into “what the app says” vs “what chat says.” | People trust the assignments because they match the conversation they are already in. |
+| Chat, voice, and assignments all describe the same rec night. | The group does not fork into what an app says vs who’s actually in. | People trust the assignments because they match the I’m-in list they already used. |
 
 ---
 
 ## Pickleball spoke — `pickleball.PlanFunGames.com`
 
-Speak pickleball: open play, sit-outs, mixing, rec nights, DUPR-adjacent skill spread. Do not lead with whiteboard-photo internals.
+Speak pickleball: rec nights, I’m-in lists, sit-outs, mixing. Do not lead with whiteboard-photo internals. Never “open play.”
 
 ### 1. Keep the rec night social
 

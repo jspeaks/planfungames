@@ -15,13 +15,13 @@ export const pickleball: SiteConfig = {
     kicker: "pickleball.PlanFunGames.com",
     headline: "Better rec pickleball. Same GroupMe.",
     subhead:
-      "Neighborhood open play already lives in chat. PlanFunGames helps the organizer mix games, rotate sit-outs, and call the next round — without turning Tuesday night into a software project.",
+      "Your rec night already lives in chat. PlanFunGames helps the organizer mix games, rotate sit-outs, and call the next round — without turning Tuesday night into a spreadsheet project.",
     cta: "Bring your pickleball GroupMe",
   },
   howItWorks: [
     {
       title: "The group is already in GroupMe",
-      body: "Who’s in, who’s late, who’s got to leave at 8 — that already happens in the thread.",
+      body: "Who’s in, who’s late, who’s got to leave at 8 — that already happens in the thread. We keep bot chatter out of the main thread.",
     },
     {
       title: "The organizer runs the night",
@@ -62,9 +62,13 @@ export const pickleball: SiteConfig = {
         "The next round starts while people are still catching their breath.",
     },
   ],
+  start: {
+    headline: "Bring the GroupMe you already have.",
+    body: "Organizer-only setup. Players keep chatting as usual. We keep bot chatter out of the main thread.",
+  },
   visual: {
     kind: "mascot",
     src: "/mascot-celebrating.webp",
-    alt: "A cheerful pickleball mascot waving a paddle in welcome",
+    alt: "Skip, the PlanFunGames pickleball mascot, celebrating",
   },
 };

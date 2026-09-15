@@ -21,7 +21,7 @@ export const tennis: SiteConfig = {
   howItWorks: [
     {
       title: "The club already has a thread",
-      body: "“I’m in” happens in GroupMe or the club chat. We do not rebuild the roster in a second app.",
+      body: "“I’m in” happens in the club chat. We do not rebuild the roster in a second app. We keep bot chatter out of the main thread.",
     },
     {
       title: "Courts are the constraint",
@@ -55,9 +55,13 @@ export const tennis: SiteConfig = {
         "Members play tennis; one person is not stuck as the human draw sheet.",
     },
   ],
+  start: {
+    headline: "Bring the tennis group you already have.",
+    body: "Organizer-only setup. Members just show up. We keep bot chatter out of the main thread.",
+  },
   visual: {
-    kind: "image",
-    src: "/tennis-mark.webp",
-    alt: "Tennis ball and racquet",
+    kind: "mascot",
+    src: "/rally-celebrating.webp",
+    alt: "Rally, the PlanFunGames tennis mascot, celebrating",
   },
 };
