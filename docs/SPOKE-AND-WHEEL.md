@@ -2,6 +2,9 @@
 
 One Next.js app. Many hosts. Content is configuration, not a fork.
 
+**Page contract (sections, CTAs, terminology):** [`IA.md`](IA.md).  
+**Why we chose it (not for the site):** [`ia/REASONING.md`](ia/REASONING.md).
+
 ```text
                     pickleball.PlanFunGames.com
                    /  (pickleball language + imagery)
@@ -34,8 +37,8 @@ Spokes may say **PlanFunGames** as the product name. They must not dump the visi
 
 | Surface | Title / description about |
 | --- | --- |
-| Hub | GroupMe, group chat, organizer tools, voice, running rec games |
-| Pickleball | Rec pickleball, open play, sit-outs, mixing, neighborhood nights |
+| Hub | GroupMe, group chat, organizer tools, voice, running rec nights |
+| Pickleball | Rec pickleball, sit-outs, mixing, neighborhood rec nights |
 | Tennis | Club tennis, round robins, ladder nights, court rotation |
 
 Each host has its own canonical URL. Do not canonicalize spokes to the hub.

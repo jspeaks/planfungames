@@ -20,6 +20,8 @@ Persuade organizers on the **right host**. Hub = platforms. Spokes = pickleball 
 
 ## Key files
 
+- `docs/IA.md` — **page contract** (read this first when changing landings)
+- `docs/ia/REASONING.md` — behind-the-scenes alignment (not for the site)
 - `docs/OBJECTIVE.md`
 - `docs/FAB.md`
 - `docs/SPOKE-AND-WHEEL.md`
@@ -29,5 +31,5 @@ Persuade organizers on the **right host**. Hub = platforms. Spokes = pickleball 
 
 ## Agent notes
 
-- Read `docs/` before changing copy or adding a sport.
-- Branding: `PlanFunGames.com`, `pickleball.PlanFunGames.com`, `tennis.PlanFunGames.com`.
+- Changing pages: follow `docs/IA.md`, then edit `src/sites/` in a batch. Do not freelance copy.
+- Branding: `PlanFunGames` (no spaces). Hosts: `PlanFunGames.com`, `pickleball.PlanFunGames.com`, `tennis.PlanFunGames.com`.

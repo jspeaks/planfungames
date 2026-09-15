@@ -1,6 +1,6 @@
 {
   "name": "planfungames",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Spoke-and-wheel intro site for PlanFunGames.com.",
   "private": true,
   "scripts": {

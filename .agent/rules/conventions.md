@@ -27,3 +27,4 @@ For every iteration, update, or code change on this project:
    - Product name in UI, docs, metadata, and prose is **`PlanFunGames`**. Never write `Plan Fun Games`.
    - Hosts: `PlanFunGames.com`, `www.PlanFunGames.com`, `pickleball.PlanFunGames.com`, `tennis.PlanFunGames.com`.
    - The hub must not list or compare sports. Each spoke uses that sport’s language and imagery.
+   - **Page orchestration:** `docs/IA.md` is the contract. `docs/ia/REASONING.md` is behind-the-scenes. Do not put reasoning on the site. Update IA, then batch-change `src/sites/`.

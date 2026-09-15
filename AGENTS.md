@@ -22,4 +22,5 @@ For every iteration, update, or code change on this project:
 3. **Brand name: `PlanFunGames` (camel case, no spaces)**:
    - Product name in UI, docs, metadata, and prose is **`PlanFunGames`**. Never write `Plan Fun Games`.
    - Hosts: `PlanFunGames.com`, `www.PlanFunGames.com`, `pickleball.PlanFunGames.com`, `tennis.PlanFunGames.com`.
-   - Hub copy must not list sports. Read `docs/` before changing landings.
+   - Hub copy must not list sports.
+   - **Landings:** read `docs/IA.md` first. Reasoning stays in `docs/ia/REASONING.md` (not on the site). Change `src/sites/` only after the IA matches.

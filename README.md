@@ -2,7 +2,7 @@
 
 Spoke-and-wheel introduction site: the hub is about GroupMe and organizer tools; sport subdomains speak pickleball and tennis.
 
-Product files: [`docs/OBJECTIVE.md`](docs/OBJECTIVE.md) · [`docs/FAB.md`](docs/FAB.md) · [`docs/SPOKE-AND-WHEEL.md`](docs/SPOKE-AND-WHEEL.md)
+Product files: [`docs/IA.md`](docs/IA.md) (page contract) · [`docs/OBJECTIVE.md`](docs/OBJECTIVE.md) · [`docs/FAB.md`](docs/FAB.md) · [`docs/SPOKE-AND-WHEEL.md`](docs/SPOKE-AND-WHEEL.md)
 
 ---
 

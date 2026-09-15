@@ -6,6 +6,8 @@
 - [x] `docs/FAB.md`
 - [x] `docs/SPOKE-AND-WHEEL.md`
 - [x] `docs/RELATED-POCS.md`
+- [x] `docs/IA.md` + `docs/ia/REASONING.md`
+- [ ] Batch landing copy to match `docs/IA.md`
 - [x] Config-driven hub + pickleball + tennis landings
 - [x] DNS + Vercel for the two spokes
 - [x] Live check: three hosts, three H1s
