@@ -1,48 +1,33 @@
 # Plan Fun Games (`PlanFunGames.com`)
 
-> Placeholder site for **PlanFunGames.com**. Mascot art will land on the homepage once a candidate is chosen from `~/dev/plan-fun-games-mascot`.
+Spoke-and-wheel introduction site: the hub is about GroupMe and organizer tools; sport subdomains speak pickleball and tennis.
+
+Product files: [`docs/OBJECTIVE.md`](docs/OBJECTIVE.md) · [`docs/FAB.md`](docs/FAB.md) · [`docs/SPOKE-AND-WHEEL.md`](docs/SPOKE-AND-WHEEL.md)
 
 ---
 
-## Current Status: Phase 1 (Foundation)
+## Hosts
 
-- [x] Secured domain name (**`PlanFunGames.com`** & **`www.PlanFunGames.com`**).
-- [x] Modern Next.js 16 (App Router) baseline with Tailwind CSS v4 and TypeScript.
-- [x] Continuous deployment pipeline via **GitHub** → **Vercel**.
-- [x] DNS routing via **Porkbun**.
-- [x] Google Analytics 4 ready via `@next/third-parties/google`.
-- [x] Multi-harness agent governance (`.agent/`, `AGENTS.md`) with Conventional Commits and Semantic Versioning.
-- [x] Homepage mascot image (`public/mascot-celebrating.webp`, transparent holes).
+| Host | Story |
+| --- | --- |
+| https://planfungames.com | Platform (GroupMe, group tools, voice) |
+| https://pickleball.planfungames.com | Pickleball landing |
+| https://tennis.planfungames.com | Tennis landing (second config) |
 
----
-
-## Tech Stack
-
-- **Framework**: Next.js 16 (App Router)
-- **Language**: TypeScript
-- **Styling**: Tailwind CSS v4
-- **Analytics**: `@next/third-parties/google` (GA4)
-- **Hosting & CI/CD**: Vercel (GitHub `main`)
-- **DNS & Registrar**: Porkbun
+Local: `localhost:3000` (hub), `pickleball.localhost:3000`, `tennis.localhost:3000`.
 
 ---
 
 ## Development
 
 ```bash
-git clone https://github.com/jspeaks/planfungames.git
-cd planfungames
 npm install
 cp .env.example .env.local
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
-
 ---
 
-## Commit & Versioning Governance
+## Commit & Versioning
 
-1. **Conventional Commits**: `feat:`, `fix:`, `style:`, `docs:`, `chore:`, `refactor:`, or `perf:`.
-2. **Semantic Versioning**: bump `version` in `package.json` with every functional change, in the same commit.
-3. **Agent rules**: `.agent/rules/conventions.md` and `AGENTS.md`.
+Conventional Commits + SemVer in the same commit. See `.agent/rules/conventions.md`.

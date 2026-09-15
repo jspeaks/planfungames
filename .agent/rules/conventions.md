@@ -25,3 +25,5 @@ For every iteration, update, or code change on this project:
 
 3. **Domain Branding & Capitalization**:
    - In all readable content, prose, documentation, and UI text, always capitalize the brand as `PlanFunGames.com` (and `www.PlanFunGames.com`).
+   - Sport spokes: `pickleball.PlanFunGames.com`, `tennis.PlanFunGames.com`.
+   - The hub must not list or compare sports. Each spoke uses that sport’s language and imagery.

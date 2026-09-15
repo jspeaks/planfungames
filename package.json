@@ -1,7 +1,7 @@
 {
   "name": "planfungames",
   "version": "0.3.0",
-  "description": "Placeholder site for PlanFunGames.com.",
+  "description": "Spoke-and-wheel intro site for PlanFunGames.com.",
   "private": true,
   "scripts": {
     "dev": "next dev",

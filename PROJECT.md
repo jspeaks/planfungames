@@ -4,28 +4,30 @@ name: "Plan Fun Games"
 status: "active"
 type: "product"
 stack: ["nextjs", "typescript", "tailwind", "vercel"]
-tags: ["planfungames", "landing-page", "vercel", "porkbun"]
-summary: "Placeholder Next.js site for PlanFunGames.com, GitHub → Vercel, Porkbun DNS."
+tags: ["planfungames", "landing-page", "vercel", "porkbun", "groupme"]
+summary: "Spoke-and-wheel intro site: hub is GroupMe/voice games management; pickleball and tennis subdomains carry sport-specific landings."
 git: true
-updated: "2026-09-14"
+updated: "2026-09-15"
 ---
 
 # Plan Fun Games
 
-Placeholder site for **PlanFunGames.com**. Homepage mascot will be chosen from `~/dev/plan-fun-games-mascot`.
+Introduction website for **PlanFunGames.com**. Attaches to group chat (GroupMe first) plus a voice organizer app so people can plan fun games. Sport spokes use their own hosts and language.
 
 ## Intent
 
-Ship a live baseline (GitHub + Vercel + Porkbun) matching the BridgemillTesla.com bootstrap, then drop in selected mascot art on the centered hero.
+Persuade organizers on the **right host**. Hub = platforms. Spokes = pickleball / tennis. Do not turn the root domain into a sports catalog. Do not import `aileaderboard` into this repo.
 
 ## Key files
 
-- `src/app/page.tsx`
-- `src/app/layout.tsx`
-- `.agent/rules/conventions.md`
-- `README.md`
+- `docs/OBJECTIVE.md`
+- `docs/FAB.md`
+- `docs/SPOKE-AND-WHEEL.md`
+- `docs/RELATED-POCS.md`
+- `docs/TASKS.md`
+- `src/sites/`
 
 ## Agent notes
 
-- Use `/bootstrap-nextjs-site` conventions: Conventional Commits + SemVer bump in the same commit.
-- Branding in prose and UI: `PlanFunGames.com`.
+- Read `docs/` before changing copy or adding a sport.
+- Branding: `PlanFunGames.com`, `pickleball.PlanFunGames.com`, `tennis.PlanFunGames.com`.

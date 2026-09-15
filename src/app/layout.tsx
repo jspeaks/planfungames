@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { canonicalOrigin } from "@/sites";
+import { currentSite } from "@/lib/site";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,17 +15,40 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
-  title: "Plan Fun Games",
-  description: "Plan Fun Games",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const site = await currentSite();
+  const origin = canonicalOrigin(site);
+  const icon =
+    site.visual.kind === "image"
+      ? site.visual.src
+      : site.visual.kind === "mascot"
+        ? "/icon.png"
+        : "/icon.png";
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+  return {
+    title: site.seo.title,
+    description: site.seo.description,
+    metadataBase: new URL(origin),
+    alternates: { canonical: origin },
+    openGraph: {
+      title: site.seo.title,
+      description: site.seo.description,
+      url: origin,
+      siteName: "Plan Fun Games",
+      type: "website",
+    },
+    icons: { icon },
+  };
+}
+
+export default async function RootLayout({ children }: LayoutProps<"/">) {
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
+  const site = await currentSite();
 
   return (
     <html
       lang="en"
+      data-site={site.slug}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
