@@ -7,8 +7,8 @@
 - [x] `docs/SPOKE-AND-WHEEL.md`
 - [x] `docs/RELATED-POCS.md`
 - [x] Config-driven hub + pickleball + tennis landings
-- [ ] DNS + Vercel for the two spokes
-- [ ] Live check: three hosts, three H1s
+- [x] DNS + Vercel for the two spokes
+- [x] Live check: three hosts, three H1s
 
 ## Phase B — Introduction site (this pass)
 
