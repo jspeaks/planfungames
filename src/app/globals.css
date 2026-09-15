@@ -24,3 +24,162 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.mascot-stage {
+  position: relative;
+  width: 10.1rem;
+  height: 12rem;
+  display: grid;
+  place-items: center;
+}
+
+.mascot-welcome {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  transform-origin: 52% 82%;
+  animation: mascot-welcome-loop 5s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+  will-change: transform;
+}
+
+.mascot-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.mascot-shadow {
+  position: absolute;
+  left: 24%;
+  right: 18%;
+  bottom: 1%;
+  height: 7%;
+  border-radius: 999px;
+  background: rgb(23 23 23 / 18%);
+  filter: blur(5px);
+  animation: mascot-shadow-loop 5s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+  will-change: opacity, transform;
+}
+
+.paddle-wave {
+  position: absolute;
+  left: -5%;
+  border-left: 2px solid #6b3e24;
+  border-radius: 50%;
+  opacity: 0;
+  transform: rotate(-18deg);
+  animation: paddle-wave-lines 5s ease-in-out infinite;
+}
+
+.paddle-wave-one {
+  top: 7%;
+  width: 1rem;
+  height: 2rem;
+}
+
+.paddle-wave-two {
+  top: 4%;
+  left: -11%;
+  width: 1.3rem;
+  height: 2.7rem;
+  animation-delay: 80ms;
+}
+
+@keyframes mascot-welcome-loop {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+  8% {
+    transform: translateY(1px) rotate(-1deg) scale(0.995);
+  }
+  15% {
+    transform: translateY(-7px) rotate(2.8deg) scale(1.01);
+  }
+  22% {
+    transform: translateY(-5px) rotate(-2.3deg) scale(1.01);
+  }
+  29% {
+    transform: translateY(-7px) rotate(2.4deg) scale(1.01);
+  }
+  36% {
+    transform: translateY(-4px) rotate(-1.7deg) scale(1.006);
+  }
+  43% {
+    transform: translateY(-5px) rotate(1.2deg) scale(1.004);
+  }
+  52% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+  60% {
+    transform: translateY(-2px) rotate(0deg) scale(1.004);
+  }
+  68% {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+}
+
+@keyframes mascot-shadow-loop {
+  0%,
+  100% {
+    opacity: 0.5;
+    transform: scaleX(1);
+  }
+  15%,
+  29% {
+    opacity: 0.3;
+    transform: scaleX(0.88);
+  }
+  52%,
+  68% {
+    opacity: 0.5;
+    transform: scaleX(1);
+  }
+  60% {
+    opacity: 0.42;
+    transform: scaleX(0.96);
+  }
+}
+
+@keyframes paddle-wave-lines {
+  0%,
+  7%,
+  48%,
+  100% {
+    opacity: 0;
+    transform: translateX(4px) rotate(-18deg) scale(0.85);
+  }
+  14%,
+  24%,
+  34%,
+  43% {
+    opacity: 0.58;
+    transform: translateX(0) rotate(-18deg) scale(1);
+  }
+  19%,
+  29%,
+  39% {
+    opacity: 0.18;
+    transform: translateX(-2px) rotate(-18deg) scale(1.04);
+  }
+}
+
+@media (min-width: 640px) {
+  .mascot-stage {
+    width: 13.45rem;
+    height: 16rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mascot-welcome,
+  .mascot-shadow,
+  .paddle-wave {
+    animation: none;
+  }
+
+  .paddle-wave {
+    display: none;
+  }
+}
