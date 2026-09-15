@@ -37,8 +37,9 @@ Landing copy must not use “open play” for these events. (The word can exist 
 
 “Software project” was clever to the owner and one pickleball reader (fear of becoming IT). Most readers don’t go there. **Spreadsheet** (pickleball) and **clipboard / draw sheet** (tennis) are the pains they already have.
 
-Default pickleball hero metaphor: *spreadsheet project.*  
-Optional later benefit: *without making you the IT department for twenty players.*
+**Owner lock (2026-09-15): spreadsheet is fine.**  
+Default pickleball hero metaphor: *without turning Tuesday night into a spreadsheet project.*  
+Do not use “software project” on the landings.
 
 ---
 

@@ -60,7 +60,7 @@ No other sections without an IA change.
 - Pickleball hero **leans GroupMe** (`Same GroupMe`).
 - Tennis hero **stays club-chat / tennis group**. Do not make GroupMe the tennis identity.
 - **Forbidden on pickleball:** “open play.” That means drop-in strangers. Use **rec night** / **I’m-in** / weeknight.
-- **Pickleball pain metaphor (locked):** spreadsheet, not “software project.”  
+- **Pickleball pain metaphor (owner-locked 2026-09-15):** spreadsheet, not “software project.”  
   Default line: *without turning Tuesday night into a spreadsheet project.*
 - Tennis pain stays **clipboard / draw sheet**, not software.
 
@@ -97,7 +97,7 @@ Promise of the click: organizer-only setup, players keep chatting, try it on the
 | --- | --- | --- |
 | Hub | Abstract mark (chat + voice) | Not Skip. Not a sport object. |
 | Pickleball | **Skip** celebrating (`/mascot-celebrating.webp`) | From `~/dev/plan-fun-games-mascot` (Grok `design/` system). |
-| Tennis | **Sibling mascot (her)** — tennis-ball body + racquet | Same studio as Skip. Produce in the mascot repo (`CHARACTER.md` lock → `hero-canonical` → edit-from-canonical). Do not one-shot a still life in this repo. Until she exists, tennis may use a temporary sport mark. |
+| Tennis | **Rally** — tennis-ball body + racquet | Same studio as Skip. Lives in `~/dev/plan-fun-games-mascot/grok/design-tennis/` (`hero-canonical.jpg`, `celebrating.jpg`). Do not copy onto this site until the landing-copy batch. |
 
 ---
 
